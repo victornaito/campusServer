@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="Maven.1.0:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Maven_1_0_ear_exploded</output-path>
+    <root id="archive" name="Maven.1.0_ear exploded.jar">
+      <element id="javaee-facet-resources" facet="Maven.1.0/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="Maven.1.0:war exploded" />
+      </element>
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="Maven.1.0:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

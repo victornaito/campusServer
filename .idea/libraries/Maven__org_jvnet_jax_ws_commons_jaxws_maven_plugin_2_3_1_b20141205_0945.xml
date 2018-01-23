@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jvnet.jax-ws-commons:jaxws-maven-plugin:2.3.1-b20141205.0945">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/jax-ws-commons/jaxws-maven-plugin/2.3.1-b20141205.0945/jaxws-maven-plugin-2.3.1-b20141205.0945.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/jax-ws-commons/jaxws-maven-plugin/2.3.1-b20141205.0945/jaxws-maven-plugin-2.3.1-b20141205.0945-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/jax-ws-commons/jaxws-maven-plugin/2.3.1-b20141205.0945/jaxws-maven-plugin-2.3.1-b20141205.0945-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
