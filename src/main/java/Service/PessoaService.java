@@ -21,6 +21,6 @@ public class PessoaService  {
     @POST
    @Consumes("{text/plain}")
     public void insertPerson(@PathParam("pessoa") String pessoa){
-       System.out.println("Consumindo serviço " + pessoa  + this.getClass());
+       System.out.println("Consumindo serviços " + pessoa  + this.getClass());
    }
 }
