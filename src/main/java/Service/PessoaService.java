@@ -1,5 +1,6 @@
 package Service;
 import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
 
 /**
  * Servicos de Pessoa:
@@ -11,15 +12,14 @@ import javax.ws.rs.*;
 public class PessoaService  {
 
     @GET
-    @Produces("{text/json},{text/xml}")
-    public String getPessoa(@PathParam("id")  Long id ){
+    @Produces({MediaType.APPLICATION_JSON, MediaType.TEXT_PLAIN})
+    public String getPerson(@PathParam("id")  Long id ){
         System.out.println("Consumindo serviço " + id  + this.getClass());
         return "getPessoa";
    }
 
-
-    @POST
-   @Consumes("{text/plain}")
+   @POST
+   @Consumes( MediaType.TEXT_PLAIN)
     public void insertPerson(@PathParam("pessoa") String pessoa){
        System.out.println("Consumindo serviços " + pessoa  + this.getClass());
    }

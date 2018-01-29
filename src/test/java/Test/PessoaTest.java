@@ -1,12 +1,10 @@
 package Test;
 
-import com.mysql.cj.core.exceptions.ExceptionFactory;
 import model.Pessoa;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.util.logging.Logger;
 
 
 public class PessoaTest {
